@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<!-- Footer -->
+
+
+  <style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.pcenter{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-family: Times New Romen;
+  font-size: 50px;
+
+}
+.wcenter{
+  text-align: center;
+  
+  padding-bottom: 10px;
+  font-family: Times New Romen;
+  font-size: 50px;
+
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  
+
+  border-left-width: 10px;right: auto;margin-top: 0px;
+ 
+    left: 550px;
+    top: 440px;
+
+
+
+
+  color: red;
+  
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+ 
+text-transform: uppercase;
+
+    background-color: #FFFFFF;
+  padding: 15px 45px 15px 45px;
+  
+  border-radius: 30px;
+
+
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+.container .btn1 {
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+  color: red;
+  
+
+    left: -20;
+    left: 0px;
+  
+    padding-right: 20px;
+    right: 0px;
+  
+    padding-left: 20px;
+
+
+    height: 50px;
+    width: 320px;
+    bottom: 0px;
+    top: 470px;
+
+
+
+
+
+
+
+
+  border: none;
+  cursor: pointer;
+ 
+text-transform: uppercase;
+
+    background-color: #FFFFFF;
+  padding: 15px 45px 15px 45px;
+  
+  border-radius: 30px;
+  
+  font-weight: bold;
+  font-size: 15px;
+}
+----------------------------------------------------------------------------
+.wrapper{
+  width: 100%;
+
+}
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .container-fluid .im{
+  margin-top: 8px;
+}
+
+    @media screen and (max-width: 500px) {
+
+
+
+      .container .btn
+      {
+        display: none;
+      }
+
+      .container .btn1
+      {
+        display: none;
+      }
+            ul li a.button
+{
+  padding-right:  0px;
+ display: block;
+ height: 40px;right: auto;width: 135px;
+
+}
+   .container-fluid .im{
+  margin-top:  1px;
+  margin-left: 2px;
+}
+}
+
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+    ul li a.button
+{
+  background-color: #e3f1ff;
+
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  margin-top: 5px;
+ 
+  margin-bottom: 5px;
+
+
+}
+   ul li a.bt{
+   display: none;
+   } 
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+
+  </style>
+
+</head>
+<body>
+<div>
+<nav class="navbar navbar-inverse navbar navbar-expand-md bg-light navbar-dark" style="background-color: white">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+         <img class="im" src="img/nav_logo.png" alt="Logo" style="width:40px;">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+       <li class="nav-item">
+        <a class="nav-link " style="color:   #000000;font-size: 20px"href="#">About us</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" style="color:   #000000;font-size: 20px" href="#">Events</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link"style="color:   #000000 ;font-size: 20px" href="#">Speakers</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link"style="color:   #000000 ;font-size: 20px" href="#">Media</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color:   #000000 ;font-size: 20px"href="#">Contacts</a>
+      </li> 
+      <li class="nav-item">
+     <a class="bt button" style="color:   #000000;font-size: 20px"href="#">Register</a>
+      </li>    
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <!-- <li><a href="#"  class="button">Register</a></li> -->
+        <li class="nav-item">
+     <a class="button " style="color:   #000000;font-size: 20px"href="#">Register</a>
+      </li>  
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  
+  <a class="btn" href="#">Register for Competition </a>
+  <a class="btn1" href="#">Register for Conference</a>
+  
+
+</div>
+
+
+<div class="wrapper">
+  
+  <img  class="img-me"src="img/bg1.png" style="width: 100%">
+</div>
+</div>
+
+
+<p class="pcenter">ABOUT US</p>
+ <div class="jumbotron text-center">
+  
+  <p style="font-size: 20px;font-family: Times new Roman">A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+
+   <p style="font-size: 20px;font-family: Times new Roman">A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+</div>
+<footer  style="background-color: #223441">
+        <div class="container">
+      <div class="row text-center text-xs-center text-sm-left text-md-left">
+        <div class="col-xs-12 col-sm-5 col-md-3">
+          <h5 style="color: white;font-size: 25px;text-align: left;">Get Started</h5>
+          <ul class="list-unstyled quick-links">
+            <li style="color: white;font-size: 20px;text-align: left;text-decoration: none;"><p ><i class="fa fa-angle-double-right"></i>About us</p></li>
+            <li style="color: white;font-size: 20px;text-align: left;"><p><i class="fa fa-angle-double-right"></i>Blog</p></li>
+            <li style="color: white;font-size: 20px;text-align: left;"><p><i class="fa fa-angle-double-right"></i>Events</p></li>
+            <li style="color: white;font-size: 20px;text-align: left;"><p><i class="fa fa-angle-double-right"></i>Login</p></li>
+            <li style="color: white;font-size: 20px;text-align: left;"><p><i class="fa fa-angle-double-right"></i>Register</p></li>
+
+             <li style="color: white;font-size: 20px;text-align: left;"><p><i class="fa fa-angle-double-right"></i>Online Donations</p></li>
+          </ul>
+        </div>
+       
+        <div class="col-xs-12 col-sm-5 col-md-3">
+          <h5 style="color: white;font-size: 25px;text-align: left;">Support</h5>
+          <ul class="list-unstyled quick-links">
+            <li style="color: white;font-size: 20px;text-align: left;"><p><i class="fa fa-angle-double-right"></i>Help Center</p></li>
+            <li style="color: white;font-size: 20px;text-align: left;"><p><i class="fa fa-angle-double-right"></i>FAQ's</p></li>
+            
+          </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-5 col-md-3" style="align-self: center;">
+         <h5 style="color: white;font-size: 25px;text-align: left;">Site Info</h5>
+          <ul class="list-unstyled quick-links">
+           <li style="color: white;font-size: 20px;text-align: left;text-decoration: none;"><p ><i class="fa fa-angle-double-right"></i>Site Map</p></li>
+            <li style="color: white;font-size: 20px;text-align: left;"><p><i class="fa fa-angle-double-right"></i>Terms</p></li>
+            <li style="color: white;font-size: 20px;text-align: left;"><p><i class="fa fa-angle-double-right"></i>Policy</p></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-5 col-md-3" style="align-self: center;">
+          <h5 style="color: white;font-size: 25px;text-align: left;text-align: left;">Contact Us</h5>
+          <img src="img/web-site.png" style="width: 20px;margin-right: 2px;">
+          <img src="img/call.png" style="width: 20px;margin-right: 2px;">
+          <img src="img/gmail.png" style="width: 20px;margin-right: 2px;">
+          <img src="img/linkedin.png" style="width: 20px;">
+          <img src="img/instagram.png" style="width: 20px;">
+        </div>
+
+      
+      </div>
+
+       <h5 style="color: white;font-size: 15px;text-align: center;">An Initative by   </h5>
+         
+
+     <img src="img/solve.png" class="center" style="width: 40px;display: block;
+  margin-left: auto;
+  margin-right: auto;
+  ">
+
+ 
+     
+     </footer>
+
+</body>
+</html>

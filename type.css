@@ -1,0 +1,56 @@
+.container-fluid {
+  position: relative;
+  width: 50%;
+}
+a.button
+{
+  background-color: #e3f1ff;
+  padding: 10px 20px 10px 20px;
+  margin-left: 200px;
+  margin-right: 30px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+/* Make the image responsive */
+
+
+/* Style the button and place it in the middle of the container/image */
+.container-fluid .btn {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FFFFFF;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  width: auto;
+  height: auto;
+  
+  word-wrap: break-word;
+
+
+ 
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.container-fluid .btn:hover {
+  background-color: black;
+}
+
+p{
+  font-family: Ebrima;
+  color: #000000;
+  font-size: 40px;
+  
+  padding-top: 20px; 
+  padding-bottom: 20px; 
+}
+
+
+
+
