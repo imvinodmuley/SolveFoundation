@@ -10,6 +10,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
+
+
+
 <!-- Footer -->
 
 
@@ -23,8 +26,9 @@
   text-align: center;
   padding-top: 15px;
   padding-bottom: 10px;
-  font-family: Times New Romen;
-  font-size: 50px;
+  font-family: Ebrima;
+  font-weight: bold;
+  font-size: 25px;
 
 }
 .wcenter{
@@ -154,7 +158,6 @@ text-transform: uppercase;
 }
 
     
-    /* Add a gray background color and some padding to the footer */
     footer {
       background-color: #f2f2f2;
       padding: 25px;
@@ -178,12 +181,50 @@ text-transform: uppercase;
    display: none;
    } 
   .carousel-inner img {
-      width: 100%; /* Set width to 100% */
+      width: 100%; 
       margin: auto;
       min-height:200px;
   }
 
-  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  .column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+      height: 332px;
+      border-radius: 60px;
+      width: 250px;
+      margin-left: 40px;
+
+}
+</style>
+
 
   </style>
 
@@ -245,6 +286,43 @@ text-transform: uppercase;
   <img  class="img-me"src="img/bg1.png" style="width: 100%">
 </div>
 </div>
+
+
+<p class="pcenter">MEDIA</p>
+ <div class="jumbotron text-center">
+  
+  <p style="font-size: 50px">UPCOMING EVENTS</p>
+</div>
+
+
+<p class="pcenter" style="margin-bottom: 30px">ARTICLES</p>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>Card 1</h3>
+      
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>Card 2</h3>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Card 3</h3>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Card 4</h3>
+    </div>
+  </div>
+</div>
+
 
 
 <div style="padding-top: 20px"></div>
