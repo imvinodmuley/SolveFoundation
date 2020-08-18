@@ -44,83 +44,7 @@
 
 
 
-.container .btn {
-  position: absolute;
-  
 
-  border-left-width: 10px;right: auto;margin-top: 0px;
- 
-    left: 550px;
-    top: 350px;
-    width: 340px;
-    height: 50px;
-
-
-
-
-  color: red;
-  
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
- 
-text-transform: uppercase;
-
-    background-color: #FFFFFF;
-  padding: 15px 45px 15px 45px;
-  
-  border-radius: 30px;
-
-
-  font-weight: bold;
-  font-size: 15px;
-}
-
-
-.container .btn1 {
-  position: absolute;
-
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  
-  color: red;
-  
-
-    left: -20;
-    left: 0px;
-  
-    padding-right: 20px;
-    right: 0px;
-  
-    padding-left: 20px;
-
-
-    height: 50px;
-    width: 320px;
-    bottom: 0px;
-    top: 380px;
-
-
-
-
-
-
-
-
-  border: none;
-  cursor: pointer;
- 
-text-transform: uppercase;
-
-    background-color: #FFFFFF;
-  padding: 15px 45px 15px 45px;
-  
-  border-radius: 30px;
-  
-  font-weight: bold;
-  font-size: 15px;
-}
-----------------------------------------------------------------------------
 .wrapper{
   width: 100%;
 
@@ -159,23 +83,30 @@ text-transform: uppercase;
     margin-bottom: 20px;
   }
 }
+.mobcard{
+  display: none;
+}
 
+.card-mob{
+  width: 300px;margin-bottom: 10px; height: 450px;
 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px 40px 20px 40px;
+  border-radius: 60px;
+  
+}
 
  
 
     @media screen and (max-width: 500px) {
 
 
-
-      .container .btn
-      {
+      .deskcard{
         display: none;
       }
-
-      .container .btn1
+      .mobcard
       {
-        display: none;
+        display: block;
       }
            
 }
@@ -198,9 +129,8 @@ text-transform: uppercase;
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
 
-                <a href="homepage.html" class="nav-item nav-link">Home</a>
+                     <a href="homepage.html" class="nav-item nav-link">Home</a>
 <a href="about.html" class="nav-item nav-link ">About us</a>
-               
                 <a href="events.html" class="nav-item nav-link">Events</a>
                 <a href="speaker.html" class="nav-item nav-link " >Speakers</a>
                 <a href="media.html" class="nav-item nav-link ">Media</a>
@@ -210,7 +140,7 @@ text-transform: uppercase;
             </div>
             <div class="navbar-nav ml-auto">
                 
-                <button style="border-radius: 30px;background-color: #e3f1ff;border-color: white;width: 116px;height: 46px;">Register</button>
+                <a href="register.html" style="border-radius: 30px;background-color: #e3f1ff;border-color: white;width: 116px;height: 46px;text-align: center;padding-top: 10px">Register</a>
             </div>
         </div>
     </nav>
@@ -220,12 +150,12 @@ text-transform: uppercase;
 
 </div>
 
-
+<!-- Desk -->
 <img class="rounded mx-auto d-block" src="img/contact.png" width="200px" height="200px" />
   
 
 
- <div class="container-fluid" style="margin-top: 10px;border-radius:1rem;">
+ <div class="container-fluid deskcard" style="margin-top: 10px;border-radius:1rem;">
   <div class="card-columns mx-auto d-flex justify-content-center col-12" style=";border-radius:1rem;">
 
 
@@ -241,11 +171,22 @@ text-transform: uppercase;
             </div>
 
           </div>
-
-      
-
-      </div>
+</div>
     </div>
+
+  <!-- MOb -->
+    <div class="container-fluid mobcard" style="margin-top: 10px;border-radius:1rem;">
+ <div class="card-mob" >
+      <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name" style="margin-bottom: 20px;margin-top: 20px; border-radius:1rem;">
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email"style="margin-bottom: 20px;border-radius:1rem;">
+      
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Question Related to ?"style="margin-bottom: 20px;border-radius:1rem;">
+     
+       <textarea class="form-control" style=";border-radius:1rem;" rows="5" placeholder="Tell Us"></textarea>
+    </div>  
+    </div>
+
+<!-- ----------------------------------------------------------------------------- -->
     <div style="text-align: center;border-radius: 40px" >
       <button type="submit" class="btn btn-primary ">Submit</button> </div>
 

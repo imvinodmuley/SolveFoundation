@@ -41,6 +41,17 @@
   position: relative;
   width: 50%;
 }
+.card-mob{
+  width: 342px;margin-left: 10px;height: 450px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px 40px 20px 40px;
+  border-radius: 60px;
+  
+}
+.mobcard{
+  display: none;
+}
 
 
 
@@ -50,24 +61,27 @@
 
   border-left-width: 10px;right: auto;margin-top: 0px;
  
-    left: 550px;
-    top: 350px;
-    width: 340px;
-    height: 50px;
+    left: 500px;
+    top: 280px;
+   padding-right: 20px;
+    
 
+
+    height: 40px;
+    width: 250px;
 
 
 
   color: red;
   
-  padding: 12px 24px;
+ padding-top: 10px;
   border: none;
   cursor: pointer;
  
 text-transform: uppercase;
 
     background-color: #FFFFFF;
-  padding: 15px 45px 15px 45px;
+  
   
   border-radius: 30px;
 
@@ -81,39 +95,31 @@ text-transform: uppercase;
   position: absolute;
 
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  
+  -ms-transform: translate(-50%, -50%);  
   color: red;
   
 
-    left: -20;
-    left: 0px;
+    left: 20;
+    
   
     padding-right: 20px;
-    right: 0px;
+    padding-top: 10px;
+
   
     padding-left: 20px;
 
 
-    height: 50px;
-    width: 320px;
-    bottom: 0px;
-    top: 380px;
-
-
-
-
-
-
-
-
+    height: 40px;
+    width: 250px;
+   
+    top: 300px;
   border: none;
   cursor: pointer;
  
 text-transform: uppercase;
 
     background-color: #FFFFFF;
-  padding: 15px 45px 15px 45px;
+ 
   
   border-radius: 30px;
   
@@ -127,11 +133,12 @@ text-transform: uppercase;
 }
 .pcenter{
   text-align: center;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-bottom: 10px;
   font-family: Ebrima;
   font-weight: bold;
   font-size: 25px;
+  /*font-size:1vw;*/
 
 }
 .column {
@@ -162,13 +169,13 @@ text-transform: uppercase;
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-      height: 332px;
+  padding: 20px 40px 20px 40px;
+
+
+      height: 300px;
       border-radius: 60px;
-      width: 250px;
-      margin-left: 40px;
+      width: 600px;
+      margin-left: 20px;
 
 }
  
@@ -185,6 +192,14 @@ text-transform: uppercase;
       .container .btn1
       {
         display: none;
+      }
+      .descard
+      {
+        display: none;
+      }
+      .mobcard
+      {
+        display: block;
       }
            
 }
@@ -206,17 +221,19 @@ text-transform: uppercase;
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
-        <a href="homepage.html" class="nav-item nav-link">Home</a>
+
+                       <a href="homepage.html" class="nav-item nav-link">Home</a>
 <a href="about.html" class="nav-item nav-link ">About us</a>
-               
                 <a href="events.html" class="nav-item nav-link">Events</a>
                 <a href="speaker.html" class="nav-item nav-link " >Speakers</a>
                 <a href="media.html" class="nav-item nav-link ">Media</a>
                 <a href="contactus.html" class="nav-item nav-link">Contacts</a>
+                
+                
             </div>
             <div class="navbar-nav ml-auto">
                 
-                <button style="border-radius: 30px;background-color: #e3f1ff;border-color: white;width: 116px;height: 46px;">Register</button>
+                <a href="register.html" style="border-radius: 30px;background-color: #e3f1ff;border-color: white;width: 116px;height: 46px;text-align: center;padding-top: 10px">Register</a>
             </div>
         </div>
     </nav>
@@ -239,7 +256,100 @@ text-transform: uppercase;
   <img  class="img-me"src="img/bg1.png" style="width: 100%">
 </div>
 </div>
-<footer  style="background-color: #223441;margin-top: 20px;padding-top: 10px">
+
+
+<p class="pcenter">ABOUT US</p>
+ 
+<div class="jumbotron text-center">
+  
+  <p style="font-size: 20px;font-family: Times new Roman">A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+
+   <p style="font-size: 20px;font-family: Times new Roman">A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+</div>
+
+<!-- Desktop -->
+<div class="descard">
+<p class="pcenter">VISION</p>
+<div class="row">
+  <div class="column-md-3">
+    <div class="card" style=" background-color: #f0ece6;">
+       <p style="margin-top: 10px"> The Global Changemaker Subimmit is a ground-breaking ananual event ,designed by SOLVE Foundation and powered by UN SDG Action Campaign with the support of the global partners with tp act for the Sustainable Developement Goals(SDGs)<br> The Global Changemaker Subimmit is a ground-breaking ananual event ,designed by SOLVE Foundation and powered by UN SDG Action Campaign with the support of the global partners with tp act for the Sustainable Developement Goals(SDGs)</p>
+    </div>    
+  </div>
+  <div class="column">
+    <img src="img/vision.png" width="200px" height="100px" style="
+    margin-left: 120px;
+    margin-top: 50px;
+">
+  </div>
+</div>
+
+<p class="pcenter">MISSION</p>
+<div class="row" style="margin-top: 20px">
+  <div class="column-md-3">
+    <div class="card"style=" background-color: #f0f0f0;">
+      <p style="margin-top: 30px;"> The Global Changemaker Subimmit is a ground-breaking ananual event ,designed by SOLVE Foundation and powered by UN SDG Action Campaign with the support of the global partners with tp act for the Sustainable Developement Goals(SDGs)<br> The Global Changemaker Subimmit is a ground-breaking ananual event ,designed by SOLVE Foundation and powered by UN SDG Action Campaign with the support of the global partners with tp act for the Sustainable Developement Goals(SDGs)
+      </p>
+    </div>    
+  </div>
+  <div class="column">
+    <img src="img/mission.png" width="200px" height="200px" style="
+    margin-left: 150px;
+    margin-top: 50px;
+">
+  </div>
+</div>
+</div>
+
+<!-- Mobile -->
+<div class="mobcard">
+<p class="pcenter">VISION</p>
+<div class="row">
+  <div class="column-md-3">
+    <div class="card-mob" style=" background-color: #f0ece6;">
+       <p style="margin-top: 10px"> The Global Changemaker Subimmit is a ground-breaking ananual event ,designed by SOLVE Foundation and powered by UN SDG Action Campaign with the support of the global partners with tp act for the Sustainable Developement Goals(SDGs)<br>The Global Changemaker Subimmit is a ground-breaking ananual event ,designed by SOLVE Foundation and powered by UN SDG Action Campaign with the support of the global partners with tp act for the Sustainable Developement Goals(SDGs)</p>
+    </div>    
+  </div>
+  <div class="column">
+    <img src="img/vision.png" width="200px" height="100px" style="
+    margin-left: 80px;
+    margin-top: 50px;
+">
+  </div>
+</div>
+
+<p class="pcenter">MISSION</p>
+<div class="row" style="margin-top: 20px">
+  <div class="column-md-3">
+    <div class="card-mob"style=" background-color: #f0f0f0;">
+      <p style="margin-top: 30px">The Global Changemaker Subimmit is a ground-breaking ananual event ,designed by SOLVE Foundation and powered by UN SDG Action Campaign with the support of the global partners with tp act for the Sustainable Developement Goals(SDGs)<br>The Global Changemaker Subimmit is a ground-breaking ananual event ,designed by SOLVE Foundation and powered by UN SDG Action Campaign with the support of the global partners with tp act for the Sustainable Developement Goals(SDGs)</p>
+    </div>    
+  </div>
+  <div class="column">
+    <img src="img/mission.png" width="200px" height="200px" style="
+    margin-left: 80px;
+    margin-top: 50px;
+">
+  </div>
+</div>
+</div>
+<p class="pcenter" >OBJECTIVES</p>
+
+<div class="wrapper">
+  
+  <img  class="img-me"src="img/objective.png" style="width: 100%">
+</div>
+
+<p class="pcenter">WHO WILL BE THERE</p>
+
+<div class="jumbotron text-center">
+  
+  <p style="font-size: 20px;font-family: Times new Roman">A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.<br>
+
+  A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+</div>
+
+<footer  style="background-color: #223441;margin-top: 20px">
         <div class="container">
       <div class="row text-center text-xs-center text-sm-left text-md-left">
         <div class="col-xs-12 col-sm-5 col-md-3">
@@ -300,6 +410,6 @@ text-transform: uppercase;
 
  
      
-     </footer>s
+     </footer>
 </body>
 </html>
